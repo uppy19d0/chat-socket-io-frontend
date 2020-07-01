@@ -1,0 +1,53 @@
+html,
+body {
+  font-family: 'Roboto', sans-serif;
+  padding: 0;
+  margin: 0;
+}
+
+#root {
+  height: 100vh;
+}
+
+* {
+  box-sizing: border-box;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background: #ffffff;
+  border-radius: 8px;
+  height: 100%;
+  width: 60%;
+}
+.Header {
+  display: flex;
+  background-color: black;
+  border-radius: 2px;
+  height: 10%;
+  width: auto;
+}
+.word {
+  text-align: center;
+  display: flex;
+  font-size: small;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande',
+    'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color: chocolate;
+  font-size: x-large;
+}
+.iconDoc {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20%;
+  text-align: center;
+}
+.parrafo {
+  margin-top: auto;
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border-radius: 8px;
+}
